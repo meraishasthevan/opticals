@@ -1,0 +1,39 @@
+.card-sec {
+    background: #fff;
+    padding: 0px 70px 80px 70px;
+    text-align: center;
+    margin-top:50px;
+}
+.card {
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #26292d;
+}
+.card h2{
+    text-transform: uppercase;
+}
+.width_33 {
+    width: 33.33%;
+    float: left;
+}
+a{
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    transition: all .3s ease;
+    background-color: transparent;
+    color: #3c3c3c;
+}
+@media(max-width:575px){
+   .width_33{
+    width:100%;
+    float:left;
+
+   }
+   .card-sec{
+    padding:0;
+   }
+}

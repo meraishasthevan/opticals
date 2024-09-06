@@ -1,0 +1,132 @@
+
+.product-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background: linear-gradient(to bottom right, #ff9a9e, #fad0c4);
+}
+
+.row-pro {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.col-md-6-pro-img, .col-md-6-pro {
+  flex: 1;
+  padding: 1rem;
+}
+
+.col-md-6-pro-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col-md-6-pro-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.col-md-6-pro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.price {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #e63946;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.medical-info {
+  margin-top: 1.5rem;
+  background: #d3cfbc;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.medical-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #1d3557;
+}
+
+.medical-info ul {
+  list-style-type: circle;
+  padding-left: 1.5rem;
+}
+
+.medical-info li {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.btn-pro {
+  padding: 20px; 
+  font-size: 0.9rem; 
+  border-radius: 20px; 
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  background: #ff6b6b;
+  color: white;
+  margin-top:30px;
+}
+
+.btn-success {
+  background-color: #ff6b6b;
+}
+
+.btn-success:hover {
+  background-color: #ff4757;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .row-pro {
+    flex-direction: column;
+  }
+
+  .col-md-6-pro-img, .col-md-6-pro {
+    padding: 0.5rem;
+  }
+
+  .col-md-6-pro h2 {
+    font-size: 2.2rem;
+  }
+
+  .price {
+    font-size: 1.4rem;
+  }
+
+  .medical-info h3 {
+    font-size: 1.4rem;
+  }
+
+  .btn-pro {
+    width: 100%;
+    font-size: 1rem; 
+  }
+}
