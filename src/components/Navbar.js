@@ -76,7 +76,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          <form className="d-flex" onSubmit={handleSearch}>
+          <form className="d-flex form-inline" onSubmit={handleSearch}>
             <input
               className="form-control me-2"
               type="search"
