@@ -24,3 +24,20 @@
 body {
   padding-top: 80px; 
 }
+.form-inline{
+  width:40%;
+}
+.form-control{
+  width:100%;
+  max-width:500px;
+}
+@media(max-width:768px){
+.form-inline{
+  width:80%;
+}
+}
+@media(max-width:565px){
+  .form-inline{
+    width:100%;
+  }
+  }
